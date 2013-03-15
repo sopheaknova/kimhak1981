@@ -1,8 +1,6 @@
 $(document).ready(function () {
-
     //This will initialize jquery.pngfix.js and fix the missing PNG-Transparency in Windows Internet Explorer 5.5 & 6. 
     $(document).pngFix();
-
 })
 
 /***************************************************

@@ -32,7 +32,8 @@
 				?>                
             </ul>
             <a class="next" href="#">&gt;</a>
-        </div><!-- /Carousel -->            
+        </div>
+        <!-- /Carousel -->            
         
     </div>
     <!--/content-->

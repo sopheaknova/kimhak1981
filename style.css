@@ -91,8 +91,8 @@ color: #747474;
 ---------------------------------------------------------------------*/
 
 h1, h2, h3, h4, h5, h6{
-	font-weight:normal;
 	color:#a6a6a6;
+	font-weight:normal;
 	letter-spacing:1px;
 }
 
@@ -285,7 +285,7 @@ td.type{
 
 #nav-sidebar{
 	position:absolute;
-	top:-45px;
+	top:-48px;
 }
 
 #nav-sidebar h1{
@@ -340,7 +340,7 @@ td.type{
 	font-size:20px;
 	padding:0;
 	margin-bottom:15px;
-	padding-top:10px;
+	margin-top:-2px;
 }
 
 #content ul li{
@@ -410,7 +410,7 @@ td.type{
 	text-transform:none;
 }
 
-.menu li a:hover, .menu li a.active-parent, .menu li a.active-child, .menu>li.current-menu-parent>a, .menu li.current-menu-item a, .menu li ul li a:hover{
+.menu li a:hover, .menu li a.active-parent, .menu li a.active-child, .menu>li.current-menu-parent>a, .menu li.current-menu-item a, .menu li ul li a:hover, .menu li.current-page-ancestor a{
 	color:#409f89; /*#747474*/
 }
 
@@ -687,13 +687,16 @@ td.type{
 			top:2px;
 			cursor:pointer;
 		}
+		.ad-controls span.facebook a{
+			display:block;	
+		}
 		
 		.ad-controls span.readtext{
-			right:20px;
+			right:55px;
 			top:2px;
 			border:1px solid #dedede;
 			height:12px;
-			padding:0 3px;
+			padding:3px;
 			cursor:pointer;
 		}
 		.ad-controls span.readtext a:hover{
@@ -760,8 +763,12 @@ ul.links li a{
 	font-weight:bold;
 }
 .all-works ul li a span.info{
-	color:#a5a5a5;
+	color:#747474;
 	font-weight:normal;
+}
+
+.all-works ul li a:hover span.title{
+	color:#409F89;
 }
 
 /* Carousel

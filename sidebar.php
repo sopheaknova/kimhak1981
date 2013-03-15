@@ -17,4 +17,5 @@
     <span class="cufon"><a href="mailto:<?php echo of_get_option('email_address'); ?>"><?php echo of_get_option('email_address'); ?></a></span>
     <span class="location cufon"><?php echo of_get_option('living_area'); ?></span>
     <span class="copyright"><?php echo of_get_option('footer_text'); ?></span>
-</div><!--/contact-->
+</div>
+<!--/contact-->

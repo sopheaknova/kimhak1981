@@ -42,7 +42,7 @@
                     <a href="<?php echo get_page_link( $page->ID ); ?>">
                     <img src="<?php bloginfo('template_url'); ?>/framework/scripts/timthumb.php?src=<?php echo $image_url[0]; ?>&amp;w=176&amp;h=120&amp;zc=1&amp;q=100" title="<?php echo $page->post_title; ?>" />
                     </a>
-                    <a href="<?php echo get_page_link( $page->ID ); ?>"><span><?php echo $page->post_title; ?></span><span class="info"><?php echo get_post_meta($page->ID, '_cmb_work_dateplace', true); ?></span></a>
+                    <a href="<?php echo get_page_link( $page->ID ); ?>"><span class="title"><?php echo $page->post_title; ?></span><span class="info"><?php echo get_post_meta($page->ID, '_cmb_work_dateplace', true); ?></span></a>
                 </li>
              <?php 
                 }

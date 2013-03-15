@@ -79,8 +79,8 @@
                             <span class="show-thumbs"><a class="tooltip" title="Show Thumbnails"><img src="<?php bloginfo('template_url'); ?>/images/view-thumbs.gif" alt="Show Thumbnails" /></a></span>
                             <span class="hide-thumbs"><a class="tooltip" title="Auto Slideshow"><img src="<?php bloginfo('template_url'); ?>/images/hide-thumbs.gif" alt="Hide Thumbnails" /></a></span>
                             <span class="readtext"><a class="tooltip" title="Read text">Read Text</a></span>
-                            <span class="facebook"><a class="tooltip" title="Share to Facebook" href="http://www.facebook.com/sharer.php?u=<?php the_permalink();?>&t=<?php the_title(); ?>" target="blank">
-                            	<img src="<?php bloginfo('template_url'); ?>/images/facebook.gif" alt="Share to Facebook" /></a>
+                            <span class="facebook"><a class="tooltip" title="Share on Facebook" href="http://www.facebook.com/sharer.php?u=<?php the_permalink();?>&t=<?php the_title(); ?>" target="blank">
+                            	<img src="<?php bloginfo('template_url'); ?>/images/fb-like-btn.gif" alt="Like to share on Facebook" /></a>
                             </span>                            
                             
                         </div>

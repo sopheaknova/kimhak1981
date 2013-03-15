@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
 
-	<!--<meta name="google-site-verification" content="RDMDOGWGPYDIh5pL_iMCFTCLE_GgADVfSv1DIRWoNbs" />-->
+	<meta name="google-site-verification" content="RDMDOGWGPYDIh5pL_iMCFTCLE_GgADVfSv1DIRWoNbs" />
         <title><?php bloginfo('name'); if(!is_home() || !is_front_page()) wp_title(' | '); ?></title>
 	
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<?php
     //show description
     o2_show_description();
@@ -202,7 +202,7 @@
 		7) scrolling via buttons support (values: "yes" or "no")
 		8) buttons scrolling speed (values: 1-20, 1 being the slowest)
 		*/
-		$(".scroll-content").mCustomScrollbar("vertical",900,"easeOutCirc",1.05,"auto","yes","no",0); 
+		$(".scroll-content").mCustomScrollbar("vertical",1000,"easeOutCirc",1.05,"auto","yes","no",0); 
 	}
 	
 	/* function to fix the -10000 pixel limit of jquery.animate */

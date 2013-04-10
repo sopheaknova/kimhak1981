@@ -220,7 +220,7 @@ table td p{
 
 td.year{
 	width:18%;
-	padding:10px 0 0;
+	padding:4px 0 6px;
 }
 
 td.company{
@@ -283,11 +283,6 @@ td.type{
 	position:relative;
 }
 
-#nav-sidebar{
-	position:absolute;
-	top:-48px;
-}
-
 #nav-sidebar h1{
 	padding:0;
 }
@@ -339,8 +334,8 @@ td.type{
 #content h2{
 	font-size:20px;
 	padding:0;
-	margin-bottom:15px;
-	margin-top:-2px;
+	margin-bottom:20px;
+	margin-top:9px;
 }
 
 #content ul li{
@@ -411,7 +406,7 @@ td.type{
 }
 
 .menu li a:hover, .menu li a.active-parent, .menu li a.active-child, .menu>li.current-menu-parent>a, .menu li.current-menu-item a, .menu li ul li a:hover, .menu li.current-page-ancestor a{
-	color:#409f89; /*#747474*/
+	color:#747474;
 }
 
 .menu li ul li a{
@@ -765,10 +760,6 @@ ul.links li a{
 .all-works ul li a span.info{
 	color:#747474;
 	font-weight:normal;
-}
-
-.all-works ul li a:hover span.title{
-	color:#409F89;
 }
 
 /* Carousel

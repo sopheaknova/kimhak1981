@@ -4,7 +4,7 @@
     
     <!--cover-->
     <div id="logo-cover">
-        <a title="Enter to <?php bloginfo('name'); ?>"><img src="<?php echo O2_IMG; ?>/logo.png" alt="<?php bloginfo('name'); ?>" /></a>
+        <a title="Enter to <?php bloginfo('name'); ?>"><img src="<?php echo O2_IMG; ?>/logo-cover.png" alt="<?php bloginfo('name'); ?>" /></a>
     </div>
     <!--/cover-->
 

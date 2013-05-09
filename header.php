@@ -202,7 +202,7 @@
 		7) scrolling via buttons support (values: "yes" or "no")
 		8) buttons scrolling speed (values: 1-20, 1 being the slowest)
 		*/
-		$(".scroll-content").mCustomScrollbar("vertical",500,"easeOutCirc",1,"fixed","yes","no",0); 
+		$(".scroll-content").mCustomScrollbar("vertical",500,"easeOutCirc",2,"fixed","yes","no",1); 
 	}
 	
 	/* function to fix the -10000 pixel limit of jquery.animate */

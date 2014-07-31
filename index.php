@@ -3,9 +3,9 @@
     <?php get_sidebar(); ?>
     
     <!--cover-->
-    <div id="logo-cover">
+    <!-- <div id="logo-cover">
         <a title="Enter to <?php bloginfo('name'); ?>"><img src="<?php echo O2_IMG; ?>/logo-cover.png" alt="<?php bloginfo('name'); ?>" /></a>
-    </div>
+    </div> -->
     <!--/cover-->
 
 	<!--content-->
